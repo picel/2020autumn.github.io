@@ -1,37 +1,40 @@
 .outerDiv
 	{
-		background-color: #006699;
+		background-color: #BF8665;
 		color: #fff;
 		height: 600px;
-		width: 93%;
+		width: 1400px;
 		margin: 0px auto;
+		border-radius: 10px;
 	}
 	.leftDiv
 	{
-		background-color: #efefef;
+		background-color: #444;
 		color: #000;
 		height: 600px;
 		width: 600px;
 		float: left;
+		border-radius: 10px 0px 0px 10px;
 	}
 	.rightDiv
 	{
-		background-color: #efefef;
+		background-color: #BF8665;
 		color: #000;
 		height: 600px;
-		width: 1000px;
+		width: 750px;
 		float: right;
+		border-radius: 10px;
 	}			
 .box {
   background-color: #444;
   color: #DDDDDD;
-  border-radius: 5px;
-  padding: 20px;
+  border-radius: 10px;
+  padding: 10px;
   font-size: 150%;
 }
 
 .box:nth-child(even) {
-  background-color: #DDDDDD;
+  background-color: #444;
   color: #1;
 }
 
@@ -42,5 +45,11 @@
   grid-template-columns: repeat(6, 120px);
   grid-template-rows: 120px 120px 120px 120px;
   grid-auto-flow: column;
- padding: 25px;
+ padding: 45px;
+}
+
+.my-transparent-button {
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
 }
