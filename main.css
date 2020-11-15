@@ -3,7 +3,7 @@
 		background-color: #BF8665;
 		color: #fff;
 		height: 600px;
-		width: 1400px;
+		width: 1200px;
 		margin: 0px auto;
 		border-radius: 10px;
 	}
@@ -16,36 +16,49 @@
 		float: left;
 		border-radius: 10px 0px 0px 10px;
 	}
+	.centerDiv
+	{
+		background-color: #027272;
+		color: #000;
+		height: 600px;
+		width: 600px;
+		float: left;
+		border-radius: 10px;
+	}		
 	.rightDiv
 	{
 		background-color: #BF8665;
 		color: #000;
-		height: 600px;
-		width: 750px;
+		height: 60px;
+		width: 60px;
 		float: right;
 		border-radius: 10px;
-	}			
+	}
 .box {
-  background-color: #444;
-  color: #DDDDDD;
+  background-color: #89B0BF;
+  color: #D8CDBE;
   border-radius: 10px;
   padding: 10px;
   font-size: 150%;
 }
 
-.box:nth-child(even) {
-  background-color: #444;
-  color: #1;
-}
 
 .wrapper {
-  width: 600px;
+  width: 500px;
+  height:475px;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(6, 120px);
+  grid-template-columns: repeat(4, 120px);
   grid-template-rows: 120px 120px 120px 120px;
-  grid-auto-flow: column;
- padding: 45px;
+  grid-auto-flow: row;
+  padding: 45px;
+  overflow-y:scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }
 
 .my-transparent-button {
